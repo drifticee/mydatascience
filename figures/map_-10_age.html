@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_04507591931640859220bea00d0397aa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_04507591931640859220bea00d0397aa" ></div>
+        
+</body>
+<script>    
+    
+            var map_04507591931640859220bea00d0397aa = L.map(
+                "map_04507591931640859220bea00d0397aa",
+                {
+                    center: [35.8, 127.5],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 6.5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_702c2cc12dec4ebf8c8a9ae8cb82ae60 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var marker_2c4eb2cbabce4bc1b91b8f5cb581fcf0 = L.marker(
+                [37.5130866, 126.9428498],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_1411719c6e8f45ffa17b57e98f5d0b99 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c4eb2cbabce4bc1b91b8f5cb581fcf0.setIcon(icon_1411719c6e8f45ffa17b57e98f5d0b99);
+        
+    
+        var popup_6b34b94dea374aa1905b7d4639c81d0a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f21d62c6e9f9414d91b4b6b7eb7fdd37 = $(`<div id="html_f21d62c6e9f9414d91b4b6b7eb7fdd37" style="width: 100.0%; height: 100.0%;">서울동작경찰서</div>`)[0];
+            popup_6b34b94dea374aa1905b7d4639c81d0a.setContent(html_f21d62c6e9f9414d91b4b6b7eb7fdd37);
+        
+
+        marker_2c4eb2cbabce4bc1b91b8f5cb581fcf0.bindPopup(popup_6b34b94dea374aa1905b7d4639c81d0a)
+        ;
+
+        
+    
+    
+            var marker_467905de2774459d8ad676b7141964a9 = L.marker(
+                [37.4956054, 127.0052504],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_0cdd9fb8733446dc84459b40082fd95a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_467905de2774459d8ad676b7141964a9.setIcon(icon_0cdd9fb8733446dc84459b40082fd95a);
+        
+    
+        var popup_80da612ad942455eb6f06f54c7a7c6ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50e845d806dd4fdea8c3f8224a5b2d2a = $(`<div id="html_50e845d806dd4fdea8c3f8224a5b2d2a" style="width: 100.0%; height: 100.0%;">서울서초경찰서</div>`)[0];
+            popup_80da612ad942455eb6f06f54c7a7c6ff.setContent(html_50e845d806dd4fdea8c3f8224a5b2d2a);
+        
+
+        marker_467905de2774459d8ad676b7141964a9.bindPopup(popup_80da612ad942455eb6f06f54c7a7c6ff)
+        ;
+
+        
+    
+    
+            var marker_bb2f61b06bd34f1bb96b0a5eeae2e9e4 = L.marker(
+                [35.1530579, 129.0897521],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_0b8abb9759fd484f8bf7ef85bfe30173 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bb2f61b06bd34f1bb96b0a5eeae2e9e4.setIcon(icon_0b8abb9759fd484f8bf7ef85bfe30173);
+        
+    
+        var popup_688efaf3c24b4e56984d38ecc4fa5e1a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea4be119aa9e4c5b91abf690710186c4 = $(`<div id="html_ea4be119aa9e4c5b91abf690710186c4" style="width: 100.0%; height: 100.0%;">부산남부경찰서</div>`)[0];
+            popup_688efaf3c24b4e56984d38ecc4fa5e1a.setContent(html_ea4be119aa9e4c5b91abf690710186c4);
+        
+
+        marker_bb2f61b06bd34f1bb96b0a5eeae2e9e4.bindPopup(popup_688efaf3c24b4e56984d38ecc4fa5e1a)
+        ;
+
+        
+    
+    
+            var marker_94d683d581574c3e96ba2ba1c4436aba = L.marker(
+                [37.49349, 127.0772119],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_de6b475d703349ec9b93aa16c812fe30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94d683d581574c3e96ba2ba1c4436aba.setIcon(icon_de6b475d703349ec9b93aa16c812fe30);
+        
+    
+        var popup_6f5ba51fdf8540a4ae891b7ef79fd50b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ce529eeb6fd149e29a62957f5fe16e75 = $(`<div id="html_ce529eeb6fd149e29a62957f5fe16e75" style="width: 100.0%; height: 100.0%;">서울수서경찰서</div>`)[0];
+            popup_6f5ba51fdf8540a4ae891b7ef79fd50b.setContent(html_ce529eeb6fd149e29a62957f5fe16e75);
+        
+
+        marker_94d683d581574c3e96ba2ba1c4436aba.bindPopup(popup_6f5ba51fdf8540a4ae891b7ef79fd50b)
+        ;
+
+        
+    
+    
+            var marker_d78f5602e8544240bf230e80fc6381c5 = L.marker(
+                [37.550814, 126.954028],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_9696c96fc6a140b5b86ab49df023bdbe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d78f5602e8544240bf230e80fc6381c5.setIcon(icon_9696c96fc6a140b5b86ab49df023bdbe);
+        
+    
+        var popup_59fb1710882a400fa41c55741096413f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_63599fb4c1a04b2298f91b2565984042 = $(`<div id="html_63599fb4c1a04b2298f91b2565984042" style="width: 100.0%; height: 100.0%;">서울마포경찰서</div>`)[0];
+            popup_59fb1710882a400fa41c55741096413f.setContent(html_63599fb4c1a04b2298f91b2565984042);
+        
+
+        marker_d78f5602e8544240bf230e80fc6381c5.bindPopup(popup_59fb1710882a400fa41c55741096413f)
+        ;
+
+        
+    
+    
+            var marker_e3ecdbb8f5504e9c8a05a57e7dd76ff1 = L.marker(
+                [37.2720772, 127.0544948],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_a62582e479214405910e0c63370fbe19 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e3ecdbb8f5504e9c8a05a57e7dd76ff1.setIcon(icon_a62582e479214405910e0c63370fbe19);
+        
+    
+        var popup_8a8877e952e941749ea9700f2758cf30 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e525690122ad4ebfb906f5b71902b117 = $(`<div id="html_e525690122ad4ebfb906f5b71902b117" style="width: 100.0%; height: 100.0%;">수원남부경찰서</div>`)[0];
+            popup_8a8877e952e941749ea9700f2758cf30.setContent(html_e525690122ad4ebfb906f5b71902b117);
+        
+
+        marker_e3ecdbb8f5504e9c8a05a57e7dd76ff1.bindPopup(popup_8a8877e952e941749ea9700f2758cf30)
+        ;
+
+        
+    
+    
+            var marker_8ac11dceba6b4e61959f85baef676545 = L.marker(
+                [35.8429112, 128.5836693],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_5feb29b10b554b7b9b0855d5cdf844ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ac11dceba6b4e61959f85baef676545.setIcon(icon_5feb29b10b554b7b9b0855d5cdf844ca);
+        
+    
+        var popup_46bfaa1a309e448bbdf87c8dbc0a4ed5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ee2fd30d455e4a0b904ce804c7bc10ae = $(`<div id="html_ee2fd30d455e4a0b904ce804c7bc10ae" style="width: 100.0%; height: 100.0%;">대구남부경찰서</div>`)[0];
+            popup_46bfaa1a309e448bbdf87c8dbc0a4ed5.setContent(html_ee2fd30d455e4a0b904ce804c7bc10ae);
+        
+
+        marker_8ac11dceba6b4e61959f85baef676545.bindPopup(popup_46bfaa1a309e448bbdf87c8dbc0a4ed5)
+        ;
+
+        
+    
+    
+            var marker_c3cd1900d0084d698a8a5697519b6faa = L.marker(
+                [36.3582165, 127.3804085],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_ead32d8c9dd842c693dc54eb06208f6e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c3cd1900d0084d698a8a5697519b6faa.setIcon(icon_ead32d8c9dd842c693dc54eb06208f6e);
+        
+    
+        var popup_92dc5ba167d449ceb2e5570f55240e94 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9596990795974ded8f0aafea6adea437 = $(`<div id="html_9596990795974ded8f0aafea6adea437" style="width: 100.0%; height: 100.0%;">대전둔산경찰서</div>`)[0];
+            popup_92dc5ba167d449ceb2e5570f55240e94.setContent(html_9596990795974ded8f0aafea6adea437);
+        
+
+        marker_c3cd1900d0084d698a8a5697519b6faa.bindPopup(popup_92dc5ba167d449ceb2e5570f55240e94)
+        ;
+
+        
+    
+    
+            var marker_b19a1fe9c1e74ee398393ad980fc7386 = L.marker(
+                [35.871797, 128.590473],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_c2c7cf3118e24f08bc40ce994160df47 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b19a1fe9c1e74ee398393ad980fc7386.setIcon(icon_c2c7cf3118e24f08bc40ce994160df47);
+        
+    
+        var popup_c9e83353ee734a819c408f8980348a16 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_816cdfe8800c45b79739347fefb1100d = $(`<div id="html_816cdfe8800c45b79739347fefb1100d" style="width: 100.0%; height: 100.0%;">대구중부경찰서</div>`)[0];
+            popup_c9e83353ee734a819c408f8980348a16.setContent(html_816cdfe8800c45b79739347fefb1100d);
+        
+
+        marker_b19a1fe9c1e74ee398393ad980fc7386.bindPopup(popup_c9e83353ee734a819c408f8980348a16)
+        ;
+
+        
+    
+    
+            var marker_d047fb6043a14627b4a55376ea41db44 = L.marker(
+                [37.5094352, 127.0669578],
+                {}
+            ).addTo(map_04507591931640859220bea00d0397aa);
+        
+    
+            var icon_20f90e10c5d741e59ba60c7eb307dfce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d047fb6043a14627b4a55376ea41db44.setIcon(icon_20f90e10c5d741e59ba60c7eb307dfce);
+        
+    
+        var popup_cf6a15d3380e429aa108fb1c0f94d775 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b2b262af671a40ee90969c5fdc334538 = $(`<div id="html_b2b262af671a40ee90969c5fdc334538" style="width: 100.0%; height: 100.0%;">서울강남경찰서</div>`)[0];
+            popup_cf6a15d3380e429aa108fb1c0f94d775.setContent(html_b2b262af671a40ee90969c5fdc334538);
+        
+
+        marker_d047fb6043a14627b4a55376ea41db44.bindPopup(popup_cf6a15d3380e429aa108fb1c0f94d775)
+        ;
+
+        
+    
+</script>

@@ -1,0 +1,98 @@
+digraph Tree {
+	graph [bb="0,0,821,663"];
+	node [label="\N",
+		shape=box
+	];
+	0	 [height=1.1528,
+		label="petal width (cm) <= 0.8\ngini = 0.667\nsamples = 150\nvalue = [50, 50, 50]\nclass = setosa",
+		pos="431,621.5",
+		width=2.0694];
+	1	 [height=0.94444,
+		label="gini = 0.0\nsamples = 50\nvalue = [50, 0, 0]\nclass = setosa",
+		pos="355,502.5",
+		width=1.5556];
+	0 -> 1	 [head_lp="371.35,561.12",
+		headlabel=True,
+		labelangle=45,
+		labeldistance=2.5,
+		pos="e,376.54,536.67 404.63,579.91 397.32,568.65 389.37,556.42 382.03,545.11"];
+	2	 [height=1.1528,
+		label="petal width (cm) <= 1.75\ngini = 0.5\nsamples = 100\nvalue = [0, 50, 50]\nclass = versicolor",
+		pos="507,502.5",
+		width=2.1528];
+	0 -> 2	 [head_lp="485.87,568.48",
+		headlabel=False,
+		labelangle=-45,
+		labeldistance=2.5,
+		pos="e,480.68,544.02 457.37,579.91 463.09,571.1 469.19,561.7 475.1,552.61"];
+	3	 [height=1.1528,
+		label="petal length (cm) <= 4.95\ngini = 0.168\nsamples = 54\nvalue = [0, 49, 5]\nclass = versicolor",
+		pos="400,383.5",
+		width=2.1944];
+	2 -> 3	 [pos="e,437.06,425.02 469.88,460.91 461.49,451.74 452.52,441.93 443.89,432.49"];
+	12	 [height=1.1528,
+		label="petal length (cm) <= 4.85\ngini = 0.043\nsamples = 46\nvalue = [0, 1, 45]\nclass = virginica",
+		pos="615,383.5",
+		width=2.1944];
+	2 -> 12	 [pos="e,577.6,425.02 544.47,460.91 552.93,451.74 561.99,441.93 570.7,432.49"];
+	4	 [height=1.1528,
+		label="petal width (cm) <= 1.65\ngini = 0.041\nsamples = 48\nvalue = [0, 47, 1]\nclass = versicolor",
+		pos="188,264.5",
+		width=2.1528];
+	3 -> 4	 [pos="e,261.42,306.02 326.45,341.91 308.36,331.92 288.88,321.17 270.4,310.98"];
+	7	 [height=1.1528,
+		label="petal width (cm) <= 1.55\ngini = 0.444\nsamples = 6\nvalue = [0, 2, 4]\nclass = virginica",
+		pos="400,264.5",
+		width=2.1528];
+	3 -> 7	 [pos="e,400,306.02 400,341.91 400,333.65 400,324.86 400,316.3"];
+	5	 [height=0.94444,
+		label="gini = 0.0\nsamples = 47\nvalue = [0, 47, 0]\nclass = versicolor",
+		pos="58,145.5",
+		width=1.6111];
+	4 -> 5	 [pos="e,94.852,179.67 142.9,222.91 129.78,211.1 115.46,198.22 102.39,186.45"];
+	6	 [height=0.94444,
+		label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica",
+		pos="188,145.5",
+		width=1.4861];
+	4 -> 6	 [pos="e,188,179.67 188,222.91 188,212.2 188,200.62 188,189.78"];
+	8	 [height=0.94444,
+		label="gini = 0.0\nsamples = 3\nvalue = [0, 0, 3]\nclass = virginica",
+		pos="313,145.5",
+		width=1.4861];
+	7 -> 8	 [pos="e,337.66,179.67 369.82,222.91 361.36,211.54 352.17,199.18 343.69,187.77"];
+	9	 [height=1.1528,
+		label="petal length (cm) <= 5.45\ngini = 0.444\nsamples = 3\nvalue = [0, 2, 1]\nclass = versicolor",
+		pos="464,145.5",
+		width=2.1944];
+	7 -> 9	 [pos="e,441.83,187.02 422.2,222.91 426.97,214.2 432.06,204.9 436.98,195.89"];
+	10	 [height=0.94444,
+		label="gini = 0.0\nsamples = 2\nvalue = [0, 2, 0]\nclass = versicolor",
+		pos="399,34",
+		width=1.6111];
+	9 -> 10	 [pos="e,418.77,68.3 439.8,103.73 434.6,94.97 429.1,85.703 423.88,76.905"];
+	11	 [height=0.94444,
+		label="gini = 0.0\nsamples = 1\nvalue = [0, 0, 1]\nclass = virginica",
+		pos="529,34",
+		width=1.4861];
+	9 -> 11	 [pos="e,509.23,68.3 488.2,103.73 493.4,94.97 498.9,85.703 504.12,76.905"];
+	13	 [height=1.1528,
+		label="sepal width (cm) <= 3.1\ngini = 0.444\nsamples = 3\nvalue = [0, 1, 2]\nclass = virginica",
+		pos="615,264.5",
+		width=2.0972];
+	12 -> 13	 [pos="e,615,306.02 615,341.91 615,333.65 615,324.86 615,316.3"];
+	16	 [height=0.94444,
+		label="gini = 0.0\nsamples = 43\nvalue = [0, 0, 43]\nclass = virginica",
+		pos="765,264.5",
+		width=1.5556];
+	12 -> 16	 [pos="e,722.48,298.67 667.04,341.91 682.32,329.99 699.01,316.98 714.21,305.12"];
+	14	 [height=0.94444,
+		label="gini = 0.0\nsamples = 2\nvalue = [0, 0, 2]\nclass = virginica",
+		pos="615,145.5",
+		width=1.4861];
+	13 -> 14	 [pos="e,615,179.67 615,222.91 615,212.2 615,200.62 615,189.78"];
+	15	 [height=0.94444,
+		label="gini = 0.0\nsamples = 1\nvalue = [0, 1, 0]\nclass = versicolor",
+		pos="745,145.5",
+		width=1.6111];
+	13 -> 15	 [pos="e,708.15,179.67 660.1,222.91 673.22,211.1 687.54,198.22 700.61,186.45"];
+}
