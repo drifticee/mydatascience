@@ -3,6 +3,7 @@
 
 ## 무시할 확장자
 ## *.exe
+.python_history
 
 ## 무시할 폴더
 ## test/
