@@ -1,0 +1,9 @@
+## 무시할 파일
+## test.txt
+
+## 무시할 확장자
+## *.exe
+
+## 무시할 폴더
+## test/
+.ipynb_checkpoints/
