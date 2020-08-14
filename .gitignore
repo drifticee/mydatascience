@@ -1,9 +1,14 @@
 ## 무시할 파일
 ## test.txt
+creditcard.csv
+fraudTest.csv
+fraudTrain.csv
 
 ## 무시할 확장자
 ## *.exe
+.python_history
 
 ## 무시할 폴더
 ## test/
-.ipynb_checkpoints/
+.ipynb_checkpoints/*
+data/CreditCardFraud/*
